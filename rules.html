@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="ro">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JOC RESPONSABIL</title>
+	<link rel="stylesheet" href="css/app.css">
+	<script>/*! @formatter:off modernizr 3.6.0 (Custom Build) | MIT https://modernizr.com/download/?-overflowscrolling-webp-setclasses !*/!function(e,n,t){function r(e,n){return typeof e===n}function o(){var e,n,t,o,i,s,a;for(var l in _)if(_.hasOwnProperty(l)){if(e=[],n=_[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(o=r(n.fn,"function")?n.fn():n.fn,i=0;i<e.length;i++)s=e[i],a=s.split("."),1===a.length?Modernizr[a[0]]=o:(!Modernizr[a[0]]||Modernizr[a[0]]instanceof Boolean||(Modernizr[a[0]]=new Boolean(Modernizr[a[0]])),Modernizr[a[0]][a[1]]=o),w.push((o?"":"no-")+a.join("-"))}}function i(e){var n=S.className,t=Modernizr._config.classPrefix||"";if(B&&(n=n.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(r,"$1"+t+"js$2")}Modernizr._config.enableClasses&&(n+=" "+t+e.join(" "+t),B?S.className.baseVal=n:S.className=n)}function s(e,n){if("object"==typeof e)for(var t in e)b(e,t)&&s(t,e[t]);else{e=e.toLowerCase();var r=e.split("."),o=Modernizr[r[0]];if(2==r.length&&(o=o[r[1]]),"undefined"!=typeof o)return Modernizr;n="function"==typeof n?n():n,1==r.length?Modernizr[r[0]]=n:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=n),i([(n&&0!=n?"":"no-")+r.join("-")]),Modernizr._trigger(e,n)}return Modernizr}function a(e,n){return!!~(""+e).indexOf(n)}function l(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):B?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function A(e){return e.replace(/([a-z])-([a-z])/g,function(e,n,t){return n+t.toUpperCase()}).replace(/^-/,"")}function u(e,n){return function(){return e.apply(n,arguments)}}function f(e,n,t){var o;for(var i in e)if(e[i]in n)return t===!1?e[i]:(o=n[e[i]],r(o,"function")?u(o,t||n):o);return!1}function c(n,t,r){var o;if("getComputedStyle"in e){o=getComputedStyle.call(e,n,t);var i=e.console;if(null!==o)r&&(o=o.getPropertyValue(r));else if(i){var s=i.error?"error":"log";i[s].call(i,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else o=!t&&n.currentStyle&&n.currentStyle[r];return o}function p(e){return e.replace(/([A-Z])/g,function(e,n){return"-"+n.toLowerCase()}).replace(/^ms-/,"-ms-")}function d(){var e=n.body;return e||(e=l(B?"svg":"body"),e.fake=!0),e}function m(e,t,r,o){var i,s,a,A,u="modernizr",f=l("div"),c=d();if(parseInt(r,10))for(;r--;)a=l("div"),a.id=o?o[r]:u+(r+1),f.appendChild(a);return i=l("style"),i.type="text/css",i.id="s"+u,(c.fake?c:f).appendChild(i),c.appendChild(f),i.styleSheet?i.styleSheet.cssText=e:i.appendChild(n.createTextNode(e)),f.id=u,c.fake&&(c.style.background="",c.style.overflow="hidden",A=S.style.overflow,S.style.overflow="hidden",S.appendChild(c)),s=t(f,e),c.fake?(c.parentNode.removeChild(c),S.style.overflow=A,S.offsetHeight):f.parentNode.removeChild(f),!!s}function g(n,r){var o=n.length;if("CSS"in e&&"supports"in e.CSS){for(;o--;)if(e.CSS.supports(p(n[o]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var i=[];o--;)i.push("("+p(n[o])+":"+r+")");return i=i.join(" or "),m("@supports ("+i+") { #modernizr { position: absolute; } }",function(e){return"absolute"==c(e,null,"position")})}return t}function h(e,n,o,i){function s(){f&&(delete U.style,delete U.modElem)}if(i=r(i,"undefined")?!1:i,!r(o,"undefined")){var u=g(e,o);if(!r(u,"undefined"))return u}for(var f,c,p,d,m,h=["modernizr","tspan","samp"];!U.style&&h.length;)f=!0,U.modElem=l(h.shift()),U.style=U.modElem.style;for(p=e.length,c=0;p>c;c++)if(d=e[c],m=U.style[d],a(d,"-")&&(d=A(d)),U.style[d]!==t){if(i||r(o,"undefined"))return s(),"pfx"==n?d:!0;try{U.style[d]=o}catch(v){}if(U.style[d]!=m)return s(),"pfx"==n?d:!0}return s(),!1}function v(e,n,t,o,i){var s=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+x.join(s+" ")+s).split(" ");return r(n,"string")||r(n,"undefined")?h(a,n,o,i):(a=(e+" "+E.join(s+" ")+s).split(" "),f(a,n,t))}function y(e,n,r){return v(e,t,t,n,r)}var w=[],_=[],C={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){_.push({name:e,fn:n,options:t})},addAsyncTest:function(e){_.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=C,Modernizr=new Modernizr;var b,S=n.documentElement,B="svg"===S.nodeName.toLowerCase();!function(){var e={}.hasOwnProperty;b=r(e,"undefined")||r(e.call,"undefined")?function(e,n){return n in e&&r(e.constructor.prototype[n],"undefined")}:function(n,t){return e.call(n,t)}}(),C._l={},C.on=function(e,n){this._l[e]||(this._l[e]=[]),this._l[e].push(n),Modernizr.hasOwnProperty(e)&&setTimeout(function(){Modernizr._trigger(e,Modernizr[e])},0)},C._trigger=function(e,n){if(this._l[e]){var t=this._l[e];setTimeout(function(){var e,r;for(e=0;e<t.length;e++)(r=t[e])(n)},0),delete this._l[e]}},Modernizr._q.push(function(){C.addTest=s}),Modernizr.addAsyncTest(function(){function e(e,n,t){function r(n){var r=n&&"load"===n.type?1==o.width:!1,i="webp"===e;s(e,i&&r?new Boolean(r):r),t&&t(n)}var o=new Image;o.onerror=r,o.onload=r,o.src=n}var n=[{uri:"data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",name:"webp"},{uri:"data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",name:"webp.alpha"},{uri:"data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",name:"webp.animation"},{uri:"data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",name:"webp.lossless"}],t=n.shift();e(t.name,t.uri,function(t){if(t&&"load"===t.type)for(var r=0;r<n.length;r++)e(n[r].name,n[r].uri)})});var Q="Moz O ms Webkit",x=C._config.usePrefixes?Q.split(" "):[];C._cssomPrefixes=x;var E=C._config.usePrefixes?Q.toLowerCase().split(" "):[];C._domPrefixes=E;var T={elem:l("modernizr")};Modernizr._q.push(function(){delete T.elem});var U={style:T.elem.style};Modernizr._q.unshift(function(){delete U.style}),C.testAllProps=v,C.testAllProps=y,Modernizr.addTest("overflowscrolling",y("overflowScrolling","touch",!0)),o(),i(w),delete C.addTest,delete C.addAsyncTest;for(var P=0;P<Modernizr._q.length;P++)Modernizr._q[P]();e.Modernizr=Modernizr}(window,document);/*! @formatter:on */</script>
+</head>
+
+<body>
+	<div class="page-wrapper">
+		<!--Header-->
+		<header id="header" class="header">
+			<div class="header__container">
+				<nav data-menu class="nav">
+					<ul class="nav__list list-reset">
+						<li class="nav__item">
+							<a href="#hero" class="nav__link">
+								Página inicial
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#about" class="nav__link">
+								+18 Informações
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#bonus" class="nav__link">
+								Locais
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#footer" class="nav__link">
+								Informações
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<button class="burger be" aria-label="Open menu" aria-expanded="false" data-burger="">
+					<span class="burger__line"></span>
+				</button>
+			</div>
+		</header>
+		<section class="rules">
+			<div class="rules__container">
+				<h2 class="rules__title">
+					JOC RESPONSABIL
+				</h2>
+				<div class="rules__text">
+					<p>
+						Jocul ar trebui să fie privit ca o activitate recreativă, nu ca o soluție pentru a obține bani
+						rapid. Pentru o experiență responsabilă, evită să încerci să recuperezi pierderile, joacă doar cu
+						bani pe care îți permiți să-i pierzi și niciodată nu utiliza fonduri esențiale, cum ar fi cele
+						pentru chirie sau facturi. Monitorizează-ți constant soldul contului pentru a gestiona eficient
+						cheltuielile. Dacă simți disconfort legat de joc, ia o pauză sau apelează la opțiunea de
+						autoexcludere.
+					</p>
+				</div>
+				<div class="rules__text">
+					<h4 class="rules__subtitle">
+						Riscurile și consecințele jocului și dependenței
+					</h4>
+					<p>
+						Deși mulți consideră jocurile de noroc o activitate relaxantă, acestea pot deveni periculoase când
+						controlul asupra timpului și banilor investiți se pierde. Această pierdere de control este cunoscută
+						drept „joc problematic” sau „dependență de jocuri de noroc.” Recunoașterea semnelor că jocul a
+						devenit o problemă este dificilă, dar un indiciu clar este atunci când afectează negativ viața de zi
+						cu zi.
+					</p>
+				</div>
+				<div class="rules__text">
+					<h4 class="rules__subtitle">
+						Dependența de jocuri de noroc
+					</h4>
+					<p>
+						Dependența de jocuri de noroc este o afecțiune recunoscută de specialiști. Chiar dacă nu ai un
+						diagnostic oficial, poți simți dificultăți legate de jocuri. Semnele de avertizare includ:<br>
+						Gânduri constante despre jocuri;<br>
+						Creșterea mizei pentru a obține aceeași satisfacție;<br>
+						Eșecul în a reduce sau opri jocul;<br>
+						Anxietate sau iritare la încercarea de a limita jocul;<br>
+						Folosirea jocului pentru a scăpa de probleme;<br>
+						Creșterea mizei pentru a recupera pierderile;<br>
+						Minciuni față de cei apropiați despre cât de mult joci;<br>
+						Pierderea relațiilor importante sau a oportunităților de muncă din cauza jocului;<br>
+						Nevoia de sprijin financiar din cauza problemelor create de joc.<br>
+						Dependența de jocuri de noroc ca problemă de sănătate publică
+					</p>
+				</div>
+				<div class="rules__text">
+					<h4 class="rules__subtitle">
+						Dependența de jocuri afectează grav jucătorul și familia sa.
+					</h4>
+					<p>
+						Printre consecințele majore se numără:<br>
+						Sănătate: Anxietate, depresie, tulburări de somn și, în cazuri extreme, gânduri suicidare. Adesea,
+						sunt implicate și alte vicii, precum alcoolul.
+						Viața socială: Conflicte familiale, probleme la muncă sau școală și chiar activități ilegale.<br>
+						Finanțe: Datorii mari și dificultăți în acoperirea cheltuielilor de bază din cauza jocului.
+					</p>
+				</div>
+				<div class="rules__text">
+					<h4 class="rules__subtitle">
+						Cum să îți schimbi obiceiurile
+					</h4>
+					<p>
+						Folosește instrumentele de joc responsabil disponibile sau caută sprijin în organizații specializate
+						care oferă ajutor gratuit pentru dependența de jocuri. Echipa noastră de suport este disponibilă
+						24/7 pentru a te ajuta.
+					</p>
+				</div>
+				<div class="rules__text">
+					<h4 class="rules__subtitle">
+						Joc responsabil și măsuri de protecție
+					</h4>
+					<p>
+						Ne angajăm să asigurăm o experiență de joc sigură și responsabilă. Lucrăm transparent și implementăm
+						măsuri pentru a proteja jucătorii de comportamente dăunătoare. În secțiunea „Contul Meu” vei găsi
+						instrumente precum limite de depunere și timp de joc.
+					</p>
+				</div>
+				<div class="rules__text">
+					<h4 class="rules__subtitle">
+						Opțiuni de pauză, blocare temporară și autoexcludere
+					</h4>
+					<p>
+						Dacă ai nevoie de o pauză, oferim opțiuni de restricționare în secțiunea „Restricționare Joc,”
+						incluzând:<br>
+						Pauză: De la 24 de ore până la 7 zile;<br>
+						Blocare temporară: Între 30 și 90 de zile;<br>
+						Autoexcludere: Contactează suportul pentru o excludere extinsă sau permanentă.
+					</p>
+				</div>
+				<div class="rules__text">
+					<h4 class="rules__subtitle">
+						Stabilirea limitelor de depunere și timp de joc
+					</h4>
+					<p>
+						Setează limite zilnice, săptămânale sau lunare pentru a controla cheltuielile. Poți configura și
+						notificări pentru timpul de joc sau activa deconectarea automată după o anumită perioadă.
+					</p>
+				</div>
+				<div class="rules__text">
+					<h4 class="rules__subtitle">
+						Autoevaluare și atenție specială
+					</h4>
+					<p>
+						Instrumentele de autoevaluare te ajută să identifici semne de comportament problematic. Dacă
+						detectăm astfel de semne, vom lua legătura cu tine pentru a discuta opțiuni de joc responsabil.
+					</p>
+				</div>
+				<div class="rules__text">
+					<h4 class="rules__subtitle">
+						Prevenirea jocului pentru minori și securitatea contului
+					</h4>
+					<p>
+						Jocul este interzis minorilor sub 18 ani, iar noi folosim instrumente pentru verificarea vârstei. De
+						asemenea, recomandăm utilizarea software-urilor de control parental și crearea de profiluri separate
+						pentru siguranță suplimentară.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="about">
+			<div class="container">
+				<div class="about__wrapper">
+					<h2 class="about__title">
+						Descoperă cele mai bune site-uri de cazinouri din România,
+						cu opiniile experților și evaluările noastre.<br>
+						+18. Joacă responsabil!
+					</h2>
+					<div class="about__subtitle">
+						Obțineți bonusuri de bun venit uimitoare
+					</div>
+					<div class="about__subtitle">
+						Todos os sites:
+					</div>
+					<div class="about__grid">
+						<div class="about-item">
+							<div class="about-item__img">
+								<picture>
+									<source srcset="images/icon/romania.webp 1x, images/icon/romania@2x.webp 1.3x" type="image/webp">
+									<source srcset="images/icon/romania.png 1x, images/icon/romania@2x.png 1.3x" type="image/png">
+									<img src="images/icon/romania.png" width="36" height="36" alt="" loading="lazy">
+								</picture>
+							</div>
+							<div class="about-item__text">
+								Licență Românească
+							</div>
+						</div>
+						<div class="about-item">
+							<div class="about-item__img">
+								<picture>
+									<source srcset="images/icon/shield.webp 1x, images/icon/shield@2x.webp 1.3x" type="image/webp">
+									<source srcset="images/icon/shield.png 1x, images/icon/shield@2x.png 1.3x" type="image/png">
+									<img src="images/icon/shield.png" width="36" height="36" alt="" loading="lazy">
+								</picture>
+							</div>
+							<div class="about-item__text">
+								Sigur și de încredere
+							</div>
+						</div>
+						<div class="about-item">
+							<div class="about-item__img">
+								<picture>
+									<source srcset="images/icon/18.webp 1x, images/icon/18@2x.webp 1.3x" type="image/webp">
+									<source srcset="images/icon/18.png 1x, images/icon/18@2x.png 1.3x" type="image/png">
+									<img src="images/icon/18.png" width="36" height="36" alt="" loading="lazy">
+								</picture>
+							</div>
+							<div class="about-item__text">
+								BeGambleAware
+							</div>
+						</div>
+					</div>
+					<div class="about__subtitle about__subtitle--small">
+						Doar pentru utilizatorii cu vârsta de peste 18 ani!
+					</div>
+					<div class="about__subtitle about__subtitle--bold">
+						Interzis minorilor | Joacă responsabil
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="alert">
+			<div class="alert__container">
+				<h2 class="alert__title">
+					JOC RESPONSABIL | CONȚINUT DOAR PENTRU PERSOANE MAJORE, PESTE 18 ANI
+				</h2>
+				<div class="about__text">
+					<p>
+						Conținut doar pentru persoanele majore, peste 18 ani. Consultați Politica noastră de Joc
+						Responsabil. Acest site oferă informații despre jocurile de noroc. Ca atare, ne angajăm să garantăm
+						că toți vizitatorii site-ului pariază în mod responsabil.
+					</p>
+					<p>
+						Nu suntem responsabili pentru jocurile oferite pe acest site. Toate regulile, termenii și condițiile
+						acestei practici aparțin exclusiv Caixa Econômica Federal. Promovam loterii online doar in Romania.
+					</p>
+					<p>
+						Vă oferim recenzii oneste și detaliate despre cele mai bune site-uri de pariuri pe curse de cai. Din
+						când în când, putem primi o mică remunerație pentru a menționa acești operatori. Cu toate acestea,
+						nu permitem ca acest lucru să influențeze criticile și opiniile noastre.
+					</p>
+					<p>
+						Mai multe informații despre reglementare:
+					</p>
+				</div>
+				<ul class="alert__list">
+					<li>
+						<a href="https://onjn.gov.ro/" target="_blank">
+							<picture>
+								<source srcset="images/alert/alert-1.webp 1x, images/alert/alert-1@2x.webp 1.3x" type="image/webp">
+								<source srcset="images/alert/alert-1.png 1x, images/alert/alert-1@2x.png 1.3x" type="image/png">
+								<img src="images/alert/alert-1.png" width="65" height="52" alt="" loading="lazy">
+							</picture>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.rombet.com/jocul-responsabil/" target="_blank">
+							<picture>
+								<source srcset="images/alert/alert-2.webp 1x, images/alert/alert-2@2x.webp 1.3x" type="image/webp">
+								<source srcset="images/alert/alert-2.png 1x, images/alert/alert-2@2x.png 1.3x" type="image/png">
+								<img src="images/alert/alert-2.png" width="181" height="52" alt="" loading="lazy">
+							</picture>
+						</a>
+					</li>
+					<li>
+						<a href="https://gbga.gi/" target="_blank">
+							<picture>
+								<source srcset="images/alert/alert-3.webp 1x, images/alert/alert-3@2x.webp 1.3x" type="image/webp">
+								<source srcset="images/alert/alert-3.png 1x, images/alert/alert-3@2x.png 1.3x" type="image/png">
+								<img src="images/alert/alert-3.png" width="64" height="52" alt="" loading="lazy">
+							</picture>
+						</a>
+					</li>
+					<li>
+						<a href="https://ibas-uk.com/" target="_blank">
+							<picture>
+								<source srcset="images/alert/alert-4.webp 1x, images/alert/alert-4@2x.webp 1.3x" type="image/webp">
+								<source srcset="images/alert/alert-4.png 1x, images/alert/alert-4@2x.png 1.3x" type="image/png">
+								<img src="images/alert/alert-4.png" width="124" height="52" alt="" loading="lazy">
+							</picture>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.gamblingtherapy.org/" target="_blank">
+							<picture>
+								<source srcset="images/alert/alert-5.webp 1x, images/alert/alert-5@2x.webp 1.3x" type="image/webp">
+								<source srcset="images/alert/alert-5.png 1x, images/alert/alert-5@2x.png 1.3x" type="image/png">
+								<img src="images/alert/alert-5.png" width="85" height="52" alt="" loading="lazy">
+							</picture>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.gamcare.org.uk/" target="_blank">
+							<picture>
+								<source srcset="images/alert/alert-6.webp 1x, images/alert/alert-6@2x.webp 1.3x" type="image/webp">
+								<source srcset="images/alert/alert-6.png 1x, images/alert/alert-6@2x.png 1.3x" type="image/png">
+								<img src="images/alert/alert-6.png" width="172" height="52" alt="" loading="lazy">
+							</picture>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.gambleaware.org/" target="_blank">
+							<picture>
+								<source srcset="images/alert/alert-7.webp 1x, images/alert/alert-7@2x.webp 1.3x" type="image/webp">
+								<source srcset="images/alert/alert-7.png 1x, images/alert/alert-7@2x.png 1.3x" type="image/png">
+								<img src="images/alert/alert-7.png" width="172" height="26" alt="" loading="lazy">
+							</picture>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer class="footer" id="footer">
+			<div class="footer__container">
+				<div class="footer__text">
+					© 2024 romaniacompania.com. All Rights Reserved.<br>
+					Joc Responsabil: Joacă întotdeauna pentru distracție, nu pentru a câștiga bani sau pentru a-ți achita
+					datoriile.<br>
+					Jocul este destinat doar persoanelor majore, peste 18 ani.
+				</div>
+				<a class="footer__link" href="https://www.gambleaware.org/" target="_blank">BeGambleAware</a>
+
+			</div>
+		</footer>
+	</div>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// Find elements with data-anchor attribute
+			var anchors = document.querySelectorAll("[data-anchor]");
+
+			// Iterate over all elements
+			anchors.forEach(function (anchor) {
+				anchor.addEventListener('click', function (event) {
+					// Extract data-keyword from the attribute
+					var keyword = anchor.getAttribute('data-keyword') || 'default';
+
+					// Get gclid from URL
+					var urlParams = new URLSearchParams(window.location.search);
+					var gclid = urlParams.get('gclid') || '';
+
+					// Construct new link
+					var link = 'https://google.com';
+					link += '&gclid=' + encodeURIComponent(gclid);
+					link += '&campid={campaignid}&adposition={adposition}&placement={placement}&device={device}&devicemodel={devicemodel}&creative={creative}&adid={adid}&target={targetid}';
+					link += '&keyword=' + encodeURIComponent(keyword); // Using data-keyword
+
+					// Set new href for the anchor
+					anchor.href = link;
+				});
+			});
+
+			const burger = () => {
+				const burgerEl      = document?.querySelector('[data-burger]');
+				const menu          = document?.querySelector('[data-menu]');
+				const targetElement = document.querySelector('body');
+				const navLinks = document.querySelectorAll('.nav__link');
+
+				burgerEl?.addEventListener('click', () => {
+					burgerEl?.classList.toggle('burger--active');
+					menu?.classList.toggle('active');
+
+					if (menu?.classList.contains('active')) {
+						burgerEl?.setAttribute('aria-expanded', 'true');
+						burgerEl?.setAttribute('aria-label', 'Сlose menu');
+
+					} else {
+						burgerEl?.setAttribute('aria-expanded', 'false');
+						burgerEl?.setAttribute('aria-label', 'Open menu');
+
+					}
+				});
+
+				navLinks.forEach(link => {
+					link.addEventListener('click', () => {
+						menu?.classList.remove('active');
+						burgerEl?.classList.remove('burger--active');
+						burgerEl?.setAttribute('aria-expanded', 'false');
+						burgerEl?.setAttribute('aria-label', 'Open menu');
+					});
+				});
+
+			};
+
+			burger();
+		});
+	</script>
+</body>
+
+</html>
